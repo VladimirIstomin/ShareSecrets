@@ -6,7 +6,6 @@ const bcrypt = require('bcrypt');
 const LocalStrategy = require('passport-local').Strategy;
 const session = require('express-session');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const e = require('express');
 
 
 // Server configuraton
